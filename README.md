@@ -60,8 +60,7 @@ git add
 git commit
 ```
 
-```C++
-
+```C
 #include <iostream>
 #include <sstream>
 #include <fstream>
