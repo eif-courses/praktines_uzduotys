@@ -59,6 +59,60 @@ git status
 git add
 git commit
 ```
+
+```C++
+
+#include <iostream>
+#include <sstream>
+#include <fstream>
+#include <cstdio>
+#include <cstdlib>
+#include <vector>
+#include <conio.h>
+#include <windows.h>
+#include <time.h>
+
+using namespace std;
+enum Location
+{
+	Earth,Aurus,Cantarius,Centalox,Ferrus,Iracus,Maurus,Taura,Varyan,Vega,Vercona
+};
+
+typedef struct
+{
+	bool r1,r2,r3,r4,r5;
+}RELIC;
+
+typedef struct
+{
+	string str;
+}STRING;
+
+#include "View.h"
+#include "Res.h"
+#include "File_handler.h"
+#include "Model.h"
+#include "Menu.h"
+#include "Game.h"
+#include "Main_menu.h"
+
+
+int main()
+{
+	srand(time(NULL));
+	Main_menu m;
+	m.Run();
+	//string path = "D:\\Programavimo mokslai\\2 semestras\\Pirm_ progr_ praktika\\Galactic Journey\\bin\\Debug\\Save\\zuza";
+	//Game g(path,"zuza",10,10,1000,0);
+	
+	//g.Run();
+	
+    return 0;
+}
+
+```
+
+
 Rendered code block
 
 For more information, see "Creating and highlighting code blocks."
